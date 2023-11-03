@@ -1,0 +1,99 @@
+* {
+    font-family: cursive;
+  }
+  
+  .left {
+    box-sizing: border-box;
+    width: 25%;
+    height: 100vh;
+    /* background-color: black; */
+    float: left;
+    color: rgb(252, 247, 247);
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .right {
+    box-sizing: border-box;
+    width: 75%;
+    height: 100vh;
+    /* background-color: rgb(146, 146, 158); */
+    color: rgb(255, 255, 255);
+    float: left;
+    overflow: auto;
+    background-image: url('sachin.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    /* overflow: visible; */
+  }
+  .name {
+    font-size: 19px;
+  }
+  .connect-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+  }
+  .bio {
+    text-align: left;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   */
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+  }
+  .nav-container h3 {
+    margin: 0;
+  }
+  .nav a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav a:hover {
+    color: rgb(219, 29, 29);
+    transition: ease-in-out 500ms;
+    /* font-weight: 100px; */
+  }
+  .table{
+    color: red;
+  }
+  .content {
+    margin: 30px 10px;
+  }
+  @media only screen and (max-width: 500px) {
+    .left {
+      float: none;
+      width: 100%;
+      padding: 20px;
+    }
+    .right {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
